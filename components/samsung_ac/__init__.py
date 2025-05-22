@@ -143,7 +143,7 @@ CUSTOM_SENSOR_SCHEMA = sensor.sensor_schema().extend(
 
 def custom_sensor_schema(
     message: int,
-    unit_of_measurement: str = sensor.cv._UNDEF,
+    unit_of_measurement: str = sensor._UNDEF,
     icon: str = sensor.cv._UNDEF,
     accuracy_decimals: int = sensor.cv._UNDEF,
     device_class: str = sensor.cv._UNDEF,
